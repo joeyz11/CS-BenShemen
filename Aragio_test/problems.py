@@ -1,3 +1,7 @@
+##################################
+# Only edit the function bodies and return statements!
+##################################
+
 # global variables
 NAME_MAX_LEN = 10
 ROUND_TIME = 60*5
@@ -15,7 +19,7 @@ def check_user_name(name):
     Returns
         valid (bool): True if the length of `name` is between 1 and NAME_MAX_LEN [inclusive]
     """
-    pass
+    return None
 
 
 # function 2: convert_time(t_sec)
@@ -29,7 +33,7 @@ def convert_time(t_sec):
     Returns
         t_min (str): time formatted MM:SS as a string if t_sec is less than ROUND_TIME, else return the string `Starting Soon`
     """
-    pass
+    return None
 
 
 # function 3: format_data(x, y)
@@ -43,7 +47,7 @@ def format_data(x, y):
     Returns
         A string in the format `move x y` where x and y are replaced by values
     """
-    pass
+    return None
 
 
 # function 4: release_mass(players)
@@ -53,13 +57,13 @@ def release_mass(players):
 
     Parameters
         players (dict): a dict of players mapping id to player 
-          where each player is the dict {"x": int, "y": int, "color": str, "score": int, "name": str}
+            where each player is the dict {"x": int, "y": int, "color": tuple, "score": int, "name": str}
         MIN_SCORE
         SCORE_DEP_RATE
     Returns
-        None
+        players (dict): the updated dict
     """
-    pass
+    return None
 
 
 # function 5: distance(x1, y1, x2, y2)
@@ -75,7 +79,7 @@ def distance(x1, y1, x2, y2):
     Returns
         dis (int): distance between the two points
     """
-    pass
+    return None
 
 
 # function 6: player_collision(p1, p2)
@@ -87,6 +91,6 @@ def player_collision(p1, p2):
         p1 (tuple): player 1 in the form of a tuple (center_x, center_y, radius)
         p2 (tuple): player 2 in the form of a tuple (center_x, center_y, radius)
     Returns
-        colliding (bool): True if the two players overlap, False otherwise
+        colliding (bool): True if the two players touches, False otherwise
     """
-    pass
+    return None
