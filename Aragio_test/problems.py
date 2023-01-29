@@ -14,15 +14,15 @@ def list_sum(num_list):
     """
     Sums up the values in a list
 
-    Paramters
+    Parameters
         num_list (list): a list of numbers
     Returns
         my_sum (int): the sum of the values in the list
     """
-    return None
+    return sum(num_list)
 
 
-# function 1: check_user_name()
+# function 1: check_user_name() group 7
 def check_user_name(name):
     """
     Checks if name can be used.
@@ -35,7 +35,7 @@ def check_user_name(name):
     return None
 
 
-# function 2: convert_time(t_sec)
+# function 2: convert_time(t_sec) group 5
 def convert_time(t_sec):
     """
     Convert a time given in seconds to a time in minutes as a string.
@@ -49,7 +49,7 @@ def convert_time(t_sec):
     return None
 
 
-# function 3: format_data(x, y)
+# function 3: format_data(x, y) group 2, 7
 def format_data(x, y):
     """
     Formats updated x and y coordinate.
@@ -63,7 +63,7 @@ def format_data(x, y):
     return None
 
 
-# function 4: release_mass(players)
+# function 4: release_mass(players) group 4
 def release_mass(players):
     """
     Decreases score of players whose score is greater than MIN_SCORE to SCORE_DEP_RATE the original score. 
@@ -79,7 +79,7 @@ def release_mass(players):
     return None
 
 
-# function 5: distance(x1, y1, x2, y2)
+# function 5: distance(x1, y1, x2, y2) group 1, 6
 def distance(x1, y1, x2, y2):
     """
     Finds the distance between two points.
@@ -95,7 +95,7 @@ def distance(x1, y1, x2, y2):
     return None
 
 
-# function 6: player_collision(p1, p2)
+# function 6: player_collision(p1, p2) group 3
 def player_collision(p1, p2):
     """
     Calculates if the two players are colliding or not.
