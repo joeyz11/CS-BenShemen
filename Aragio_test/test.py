@@ -1,6 +1,5 @@
 from problems import *
 
-
 ##################################
 # DON'T EDIT THIS FILE!
 # Only run this file using `python test.py` in the terminal
@@ -12,6 +11,15 @@ NAME_MAX_LEN = 10
 ROUND_TIME = 60*5
 MIN_SCORE = 10
 SCORE_DEP_RATE = 0.95
+
+
+def test_list_sum():
+    l = [3, 7, -5, 0]
+    if list_sum(l) == None:
+        pass
+    else:
+        assert list_sum(l) == 5
+        print("demo function passed!\n")
 
 
 def test_check_user_name():
@@ -93,6 +101,7 @@ def test_player_collision():
 # run tests
 if __name__ == '__main__':
     print("\nRunning tests...\n")
+    test_list_sum()
     test_check_user_name()
     test_convert_time()
     test_format_data()

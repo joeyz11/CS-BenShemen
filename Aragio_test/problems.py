@@ -9,6 +9,19 @@ MIN_SCORE = 10
 SCORE_DEP_RATE = 0.95
 
 
+# Demo function
+def list_sum(num_list):
+    """
+    Sums up the values in a list
+
+    Paramters
+        num_list (list): a list of numbers
+    Returns
+        my_sum (int): the sum of the values in the list
+    """
+    return None
+
+
 # function 1: check_user_name()
 def check_user_name(name):
     """
